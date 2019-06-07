@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc",
     "tslint": "node_modules/.bin/tslint --project .",
-    "prepare":"tsc -d"
+    "prepare": "tsc -d"
   },
   "repository": {
     "type": "git",
@@ -40,8 +40,6 @@
   "files": [
     "*.json",
     "index.js",
-    "index.d.ts",
-    "src/**/*.js",
-    "src/**/*.d.ts"
+    "src/**/*.js"
   ]
 }
