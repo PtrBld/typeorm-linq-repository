@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc -d",
-    "tslint": "node_modules/.bin/tslint --project ."
+    "tslint": "node_modules/.bin/tslint --project .",
     "prepare":"npm run tsc"
   },
   "repository": {
